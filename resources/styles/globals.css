@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+:root {
+	--blue: #4B9CD3;
+	--white: #FFFDE4;
+	--navy: #000055;
+}
+
+* {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	font-family: Ubuntu;
+	color: var(--blue);
+	font-size: 18px;
+}
+
+body {
+	background-color: var(--white);
+}
+
+span {
+	font-size: inherit;
+}
