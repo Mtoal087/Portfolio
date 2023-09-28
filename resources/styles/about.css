@@ -1,0 +1,56 @@
+.hackathon {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 55px 0 0 0;
+}
+
+.hackathon img {
+	width: 20%;
+	border-radius: 10%;
+	border: 5px solid var(--navy);
+	padding: 5px;
+	box-shadow: 3px 3px 15px 0px;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 18px 0 0 0;
+}
+
+.text p {
+	font-size: .75em;
+	font-style: italic;
+	color: var(--navy);
+}
+
+.intro {
+	padding-top: 20px;
+	padding-bottom: 125px;
+}
+
+.intro h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 35px 2em;
+	font-weight: 900;
+	font-style: oblique;
+}
+
+.intro p {
+	width: 100%;
+	margin: 5px;
+	font-size: 1em;
+	padding: 0 2%;
+	line-height: 2.5;
+	text-indent: 50px;
+}
+
+.intro hr {
+	margin: 35px 25% 35px 25%;
+	width: 50%;
+	box-shadow: 4px 1px 10px var(--navy);
+}
