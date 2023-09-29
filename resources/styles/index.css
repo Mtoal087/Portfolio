@@ -4,25 +4,38 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding: 1em 0;
 }
 
 nav .logo a{
 	color: var(--navy);
 	font-size: 2em;
+	padding-left: 20px;
 }
 
 nav .navigation {
-	margin-right: 15%;
+	margin-right: 5%;
+	width: 75%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border: 2px solid red;
 }
 
-nav .navigation a{
+nav .navigation a {
 	display: flex;
 	padding: 0 70px;
 	font-size: 1.25em;
+}
+
+nav .navigation .button:hover {
+	background-color: var(--navy);
+}
+
+nav .navigation .button {
+	background-color: var(--blue);
+	color: var(--white);
+	padding: 0 20px;
+	border-radius: 20px;
 }
 
 .main {
