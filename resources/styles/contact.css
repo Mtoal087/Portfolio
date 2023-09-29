@@ -98,6 +98,7 @@ nav .navigation .button {
 	margin-top: 75px;
 	margin-left: 40%;
 	margin-right: 40%;
+	box-shadow: 0 0 10px var(--navy);
 }
 
 /* Social Media Links */
