@@ -28,49 +28,7 @@ span {
 	font-size: inherit;
 }
 
-nav {
-	width: 100%;
-	padding: 1em 5%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-nav a {
-	text-decoration: none;
-}
-
-.logo {
-	font-size: 1.8em;
-	font-family: Ubuntu;
-}
-
-.row {
-	display: flex;
-	gap: 3.5em;
-	padding: 0 5%;
-	align-items: center;
-}
-
-.row a {
-	font-size: 1.25em;
-	font-weight: bold;
-	color: var(--navy);
-	width: 100%;
-}
-
-.row a button:hover {
-	background-color: var(--navy);
-}
-
-.row a button {
-	background-color: var(--blue);
-	color: var(--white);
-	font-size: 1em;
-	padding: 2px 5px;
-	cursor: pointer;
-	border-radius: 6px;
-}
+/*TODO: Restyle the nav */
 
 .socials {
 	width: 100%;
