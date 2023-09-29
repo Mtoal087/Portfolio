@@ -17,6 +17,7 @@
 	font-family: Ubuntu;
 	color: var(--blue);
 	font-size: 18px;
+	text-decoration: none;
 }
 
 body {
