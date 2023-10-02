@@ -37,3 +37,140 @@ nav .navigation .button {
 	padding: 0 20px;
 	border-radius: 20px;
 }
+
+/* Courses */
+.courses {
+	margin-top: 55px;
+}
+
+.courses h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 1.75em;
+}
+
+.courses .para {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 5%;
+	margin-top: 25px;
+	border: 2px solid var(--navy);
+	border-radius: 12px;
+	box-shadow: 0 0 8px var(--blue);
+}
+
+.courses p {
+	padding: 15px;
+	color: var(--navy);
+}
+
+/* Projects */
+.projects {
+	margin-top: 55px;
+}
+
+.projects h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 1.75em;
+}
+
+	/* Project 1 */
+.project1 {
+	margin: 0 2% 0 5%;
+	margin-top: 15px;
+}
+
+.project1 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.2em;
+}
+
+.projects .proj1des p {
+	margin: 8px 2%;
+	font-size: 1em;
+}
+
+.project1 a {
+	margin: 0 4%;
+	color: var(--navy);
+	font-style: italic;
+}
+
+	/* Project 2 */
+.project2 {
+	margin: 0 2% 0 5%;
+	margin-top: 15px;
+}
+
+.project2 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.2em;
+}
+
+.projects .proj2des p {
+	margin: 8px 2%;
+	font-size: 1em;
+}
+
+.project2 a {
+	margin: 0 4%;
+	color: var(--navy);
+	font-style: italic;
+}
+
+/* Project 3 */
+.project3 {
+	margin: 0 2% 0 5%;
+	margin-top: 15px;
+}
+
+.project3 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.2em;
+}
+
+.projects .proj3des p {
+	margin: 8px 2%;
+	font-size: 1em;
+}
+
+.project3 a {
+	margin: 0 4%;
+	color: var(--navy);
+	font-style: italic;
+}
+
+/* Experiences */
+.experience {
+	margin: 55px 5% 15% 5%;
+}
+
+.experience h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 1.75em;
+	margin-top: 15px;
+}
+
+.exp1 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.4em;
+}
+
+.exp1 h2 {
+	font-size: 1.05em;
+	color: var(--navy);
+}
+
+.exp1 p {
+	margin-left: 2%;
+	font-size: .95em;
+	padding-top: 15px;
+}
