@@ -107,6 +107,7 @@ nav .navigation .button {
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 10%;
+	margin-bottom: 20%;
 }
 
 .middle a {
@@ -137,7 +138,3 @@ nav .navigation .button {
 	padding-top: 20px;
 }
 
-.bottom {
-	color: var(--navy);
-	margin-top: 45px;
-}
