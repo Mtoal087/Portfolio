@@ -149,7 +149,7 @@ nav .navigation .button {
 
 /* Experiences */
 .experience {
-	margin: 55px 5% 15% 5%;
+	margin: 55px 5% 0 5%;
 }
 
 .experience h1 {
@@ -174,4 +174,34 @@ nav .navigation .button {
 	margin-left: 2%;
 	font-size: .95em;
 	padding-top: 15px;
+}
+
+.photo {
+	margin: 55px 5% 15% 5%;
+}
+
+.photo h1 {
+	font-size: 1.2em;
+}
+
+.photo .f1 h1 {
+	font-size: 1.05em;
+	padding-left: 5%;
+	font-style: italic;
+	margin-top: 35px;
+}
+
+.photo .images {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 25px;
+}
+
+.photo .images img {
+	height: 550px;
+	width: auto;
+	border: 3px solid var(--white);
+	border-radius: 12px;
 }
