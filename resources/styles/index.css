@@ -42,19 +42,20 @@ nav .navigation .button {
 .main {
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 20%;
 }
 
 .left, .right {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
-	gap: .5em;
+	gap: .2em;
 	flex: 1;
-	padding: 5%;
 }
 
 .left {
-	padding: 10em 5%;
+	padding: 10em 3% 0 3%;
 }
 
 .left p, h1{
@@ -87,6 +88,7 @@ nav .navigation .button {
 
 .right {
 	align-items: center;
+	margin-top: 6em;
 }
 
 .right img {
