@@ -122,6 +122,7 @@ nav .navigation .button {
 
 .middle h2 {
 	color: var(--navy);
+	padding-top: 20px;
 }
 
 .middle .linkedIn a {
@@ -134,7 +135,59 @@ nav .navigation .button {
 	padding-top: 15px;
 }
 
-.middle h2 {
-	padding-top: 20px;
-}
 
+/* Phone Screens */
+@media (max-width: 450px) {
+	nav .navigation {
+		width: 100%;
+		padding: 0 5px;
+		padding-top: 8px;
+		justify-content: space-between;
+	}
+
+	nav .navigation .button {
+		padding: 0 10px;
+	}
+
+	.top h1 {
+		font-size: 30px;
+	}
+
+	.synopsis {
+		margin-top: 25px;
+	}
+
+	.underSyn {
+		margin-top: 50px;
+	}
+
+	.middle {
+		display: flex;
+		justify-content: space-evenly;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.middle a {
+		display: flex;
+		width: 80px;
+		height: 80px;
+		border: 3px solid var(--navy);
+		padding: 15px;
+		border-radius: 12px;
+		box-shadow: 5px 5px 10px var(--navy);
+	}
+
+	.middle h2 {
+		display: none;
+	}
+
+	.middle .linkedIn a {
+		padding-left: 16px;
+		padding-top: 17px;
+	}
+
+	.middle .facebook a {
+		padding-left: 25px;
+	}
+}
