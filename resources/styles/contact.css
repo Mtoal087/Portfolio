@@ -175,7 +175,7 @@ nav .navigation .button {
 	.middle a {
 		display: flex;
 		width: 80px;
-		height: auto;
+		height: 80px;
 		border: 3px solid var(--navy);
 		padding: 15px;
 		border-radius: 12px;
