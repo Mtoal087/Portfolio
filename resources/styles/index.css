@@ -98,3 +98,30 @@ nav .navigation .button {
 	padding: 5px;
 	box-shadow: 15px 15px 20px 5px;
 }
+
+@media (max-width: 450px) {
+	nav .navigation {
+		width: 100%;
+		padding: 0 5px;
+		padding-top: 8px;
+		justify-content: space-between;
+	}
+
+	nav .navigation .button {
+		padding: 0 8px;
+	}
+
+	.left {
+		padding-top: 1.2em;
+	}
+
+	.right {
+		margin-top: 2em;
+		margin-bottom: 10%;
+	}
+
+	.right img {
+		width: 320px;
+		height: auto;
+	}
+}
