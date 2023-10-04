@@ -299,4 +299,8 @@ nav .navigation .button {
 		width: 325px;
 		height: auto;
 	}
+
+	footer {
+		display: none;
+	}
 }

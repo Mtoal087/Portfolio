@@ -117,4 +117,8 @@ nav .navigation .button {
 	.intro p {
 		padding: 0 25px;
 	}
+
+	footer {
+		display: none;
+	}
 }
