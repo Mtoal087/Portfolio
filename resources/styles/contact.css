@@ -158,6 +158,10 @@ nav .navigation .button {
 		font-size: 30px;
 	}
 
+	.top .verticalStack .hor1 p {
+		color: var(--navy);
+	}
+
 	.synopsis {
 		margin-top: 25px;
 	}
