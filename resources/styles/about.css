@@ -95,3 +95,26 @@ nav .navigation .button {
 	width: 50%;
 	box-shadow: 4px 1px 10px var(--navy);
 }
+
+
+@media (max-width: 450px) {
+	nav .navigation {
+		width: 100%;
+		padding: 0 5px;
+		padding-top: 8px;
+		justify-content: space-between;
+	}
+
+	nav .navigation .button {
+		padding: 0 8px;
+	}
+
+	.hackathon img {
+		width: 220px;
+		height: auto;
+	}
+
+	.intro p {
+		padding: 0 25px;
+	}
+}
