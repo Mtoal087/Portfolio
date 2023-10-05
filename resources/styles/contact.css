@@ -187,16 +187,34 @@ nav .navigation .button {
 		box-shadow: 5px 5px 10px var(--navy);
 	}
 
+	.middle a img {
+		display: flex;
+		justify-content: center;
+		width: 45px;
+		height: 45px;
+	}
+
+	.middle .instagram a img {
+		width: 55px;
+		height: 55px;
+	}
+
 	.middle h2 {
 		display: none;
 	}
 
-	.middle .linkedIn a {
-		padding-left: 16px;
-		padding-top: 17px;
+	.middle .instagram a img {
+		width: 45px;
+		height: 45px;
 	}
 
-	.middle .facebook a {
-		padding-left: 25px;
+	.middle .linkedIn a img {
+		width: 44px;
+		height: 44px;
+	}
+
+	.middle .facebook a img {
+		width: auto;
+		height: 40px;
 	}
 }
