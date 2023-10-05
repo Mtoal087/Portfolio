@@ -96,8 +96,26 @@ nav .navigation .button {
 	font-size: 1.25em;
 }
 
+/* Download Resume Button */
+.download {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.download a:hover {
+	background-color: var(--navy);
+}
+
+.download a {
+	background-color: var(--blue);
+	color: var(--white);
+	border-radius: 12px;
+	padding: 10px;
+}
+
 .underSyn {
-	margin-top: 75px;
+	margin-top: 50px;
 	margin-left: 30%;
 	margin-right: 30%;
 	box-shadow: 0 0 10px var(--navy);
@@ -107,7 +125,7 @@ nav .navigation .button {
 .middle {
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 10%;
+	margin-top: 7%;
 	margin-bottom: 20%;
 }
 
