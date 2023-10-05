@@ -70,7 +70,7 @@ nav .navigation .button {
 }
 
 .top .verticalStack .hor1 p {
-	color: var(--navy);
+	font-style: italic;
 }
 
 .top .verticalStack .hor2 {
@@ -82,7 +82,8 @@ nav .navigation .button {
 }
 
 .top .verticalStack .hor2 p {
-	color: var(--navy);
+	color: var(--blue);
+	font-style: italic;
 }
 
 /* Synopsis */
@@ -156,10 +157,6 @@ nav .navigation .button {
 
 	.top h1 {
 		font-size: 30px;
-	}
-
-	.top .verticalStack .hor1 p {
-		color: var(--navy);
 	}
 
 	.synopsis {
