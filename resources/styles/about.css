@@ -106,10 +106,18 @@ nav .navigation .button:hover {
 		padding: 0 5px;
 		padding-top: 8px;
 		justify-content: space-between;
+		font-size: 14px;
 	}
 
 	nav .navigation .button {
 		padding: 0 8px;
+		animation: button 1s infinite alternate;
+	}
+
+	@keyframes button {
+		100% {
+			background-color: var(--navy);
+		}
 	}
 
 	.hackathon img {

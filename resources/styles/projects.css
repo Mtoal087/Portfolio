@@ -1,0 +1,257 @@
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em 0;
+}
+
+nav .logo a{
+	color: var(--navy);
+	font-size: 2em;
+	margin-left: 20px;
+}
+
+nav .navigation {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+nav .navigation a, .button {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5px;
+	font-size: 1.25em;
+}
+
+nav .navigation .button {
+	background-color: var(--blue);
+	color: var(--white);
+	padding: 0 20px;
+	border-radius: 20px;
+	transition: all 1s;
+}
+
+nav .navigation .button:hover {
+	background-color: var(--navy);
+	transform: translateY(-2px);
+	box-shadow: 0 5px 20px 5px rgba(0, 0, 0, .3);
+}
+
+/* PROJECT */
+.projects {
+	margin-top: 55px;
+}
+
+.title h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 1.75em;
+}
+
+	/* Project 1 */
+.project1 {
+	margin: 0 2% 0 5%;
+	margin-top: 15px;
+	transition: transform 1s;
+}
+
+.project1:hover {
+	transform: translateY(-5px);
+}
+
+.project1 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.2em;
+}
+
+.projects .proj1des p {
+	margin: 8px 2%;
+	font-size: 1em;
+}
+
+.project1 a {
+	margin: 0 4%;
+	color: var(--navy);
+	font-style: italic;
+	transition: border-bottom .1s ease-in-out;
+}
+
+.project1 a:hover {
+	border-bottom: 2px solid var(--navy);
+}
+
+.project1 .images1 {
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.project1 img {
+	width: 375px;
+	border-radius: 10px;
+	transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.project1 img:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 20px 5px var(--blue);
+}
+
+	/* Project 2 */
+.project2 {
+	margin: 0 2% 0 5%;
+	margin-top: 15px;
+	transition: transform 1s;
+}
+
+.project2 .images2 {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+.images2 img {
+	width: 200px;
+	border-radius: 25px;
+	transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.images2 img:hover {
+	transform: scale(1.15);
+	box-shadow: 0 0 20px 5px var(--blue);
+}
+
+.project2:hover {
+	transform: translateY(-5px);
+}
+
+.project2 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.2em;
+}
+
+.projects .proj2des p {
+	margin: 8px 2%;
+	font-size: 1em;
+}
+
+.project2 a {
+	margin: 0 4%;
+	color: var(--navy);
+	font-style: italic;
+	transition: border-bottom .1s ease-in-out;
+}
+
+.project2 a:hover {
+	border-bottom: 2px solid var(--navy);
+}
+
+/* Project 3 */
+.project3 {
+	margin: 0 2% 0 5%;
+	margin-top: 30px;
+	transition: transform 1s;
+	margin-bottom: 100px;
+}
+
+.project3:hover {
+	transform: translateY(-5px);
+}
+
+.project3 .images3 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.images3 img {
+	width: 200px;
+	border-radius: 25px;
+	transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.images3 img:hover {
+	transform: scale(1.15);
+	box-shadow: 0 0 20px 5px var(--blue);
+}
+
+.project3 h1 {
+	display: flex;
+	justify-content: left;
+	font-size: 1.2em;
+}
+
+.projects .proj3des p {
+	margin: 8px 2%;
+	font-size: 1em;
+}
+
+.project3 a {
+	margin: 0 4%;
+	color: var(--navy);
+	font-style: italic;
+	transition: border-bottom .1s ease-in-out;
+}
+
+.project3 a:hover {
+	border-bottom: 2px solid var(--navy);
+}
+
+@media (max-width: 450px) {
+	nav .navigation {
+		width: 100%;
+		padding: 0 5px;
+		padding-top: 8px;
+		justify-content: space-between;
+		font-size: 14px;
+	}
+
+	nav .navigation .button {
+		padding: 0 8px;
+		animation: button 1s infinite alternate;
+	}
+
+	@keyframes button {
+		100% {
+			background-color: var(--navy);
+		}
+	}
+
+	.images1 img {
+		width: 300px;
+		margin-bottom: 5px;
+	}
+
+	.project2 .images2 {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	.images2 img {
+		width: 200px;
+		margin-bottom: 5px;
+	}
+
+	.images3 {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	.images3 img {
+		width: 200px;
+		margin-bottom: 5px;
+	}
+
+	footer {
+		display: none;
+	}
+}

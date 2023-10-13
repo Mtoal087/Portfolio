@@ -70,101 +70,6 @@ nav .navigation .button:hover {
 	color: var(--navy);
 }
 
-/* Projects */
-.projects {
-	margin-top: 55px;
-}
-
-.projects h1 {
-	display: flex;
-	justify-content: center;
-	font-size: 1.75em;
-}
-
-	/* Project 1 */
-.project1 {
-	margin: 0 2% 0 5%;
-	margin-top: 15px;
-	transition: transform 1s;
-}
-
-.project1:hover {
-	transform: translateY(-10px);
-}
-
-.project1 h1 {
-	display: flex;
-	justify-content: left;
-	font-size: 1.2em;
-}
-
-.projects .proj1des p {
-	margin: 8px 2%;
-	font-size: 1em;
-}
-
-.project1 a {
-	margin: 0 4%;
-	color: var(--navy);
-	font-style: italic;
-}
-
-	/* Project 2 */
-.project2 {
-	margin: 0 2% 0 5%;
-	margin-top: 15px;
-	transition: transform 1s;
-}
-
-.project2:hover {
-	transform: translateY(-10px);
-}
-
-.project2 h1 {
-	display: flex;
-	justify-content: left;
-	font-size: 1.2em;
-}
-
-.projects .proj2des p {
-	margin: 8px 2%;
-	font-size: 1em;
-}
-
-.project2 a {
-	margin: 0 4%;
-	color: var(--navy);
-	font-style: italic;
-}
-
-/* Project 3 */
-.project3 {
-	margin: 0 2% 0 5%;
-	margin-top: 15px;
-	transition: transform 1s;
-}
-
-.project3:hover {
-	transform: translateY(-10px);
-}
-
-.project3 h1 {
-	display: flex;
-	justify-content: left;
-	font-size: 1.2em;
-}
-
-.projects .proj3des p {
-	margin: 8px 2%;
-	font-size: 1em;
-}
-
-.project3 a {
-	margin: 0 4%;
-	color: var(--navy);
-	font-style: italic;
-}
-
 /* Experiences */
 .experience {
 	margin: 55px 5% 0 5%;
@@ -311,10 +216,18 @@ nav .navigation .button:hover {
 		padding: 0 5px;
 		padding-top: 8px;
 		justify-content: space-between;
+		font-size: 14px;
 	}
 
 	nav .navigation .button {
 		padding: 0 8px;
+		animation: button 1s infinite alternate;
+	}
+
+	@keyframes button {
+		100% {
+			background-color: var(--navy);
+		}
 	}
 
 	.courses {
@@ -324,6 +237,10 @@ nav .navigation .button:hover {
 	.images2 img {
 		width: 325px;
 		height: auto;
+	}
+
+	.experience {
+		margin-bottom: 100px;
 	}
 
 	footer {
