@@ -28,15 +28,18 @@ nav .navigation a, .button {
 	font-size: 1.25em;
 }
 
-nav .navigation .button:hover {
-	background-color: var(--navy);
-}
-
 nav .navigation .button {
 	background-color: var(--blue);
 	color: var(--white);
 	padding: 0 20px;
 	border-radius: 20px;
+	transition: all 1s;
+}
+
+nav .navigation .button:hover {
+	background-color: var(--navy);
+	transform: translateY(-2px);
+	box-shadow: 0 5px 20px 5px rgba(0, 0, 0, .3);
 }
 
 /*Heading 'Contact Me' statement*/
