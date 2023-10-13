@@ -106,15 +106,25 @@ nav .navigation .button:hover {
 	margin-top: 50px;
 }
 
+.download a {
+	background-color: var(--blue);
+	color: var(--white);
+	border-radius: 10px;
+	padding: 10px;
+	animation: bounce 1s infinite alternate;
+	transition: background-color 1s;
+}
+
 .download a:hover {
 	background-color: var(--navy);
 }
 
-.download a {
-	background-color: var(--blue);
-	color: var(--white);
-	border-radius: 12px;
-	padding: 10px;
+@keyframes bounce {
+	100% {
+		transform: translateY(-5px) scale(1.05);
+		padding: 10px 20px;
+		box-shadow: 0 10px 20px 12px rgba(0, 0, 0, .15);
+	}
 }
 
 .underSyn {
