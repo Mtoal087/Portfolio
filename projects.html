@@ -1,94 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Matthew Toal</title>
-	<link rel="stylesheet" href="./resources/styles/globals.css">
-	<link rel="stylesheet" href="./resources/styles/projects.css">
-	<link rel="icon" type="image/logo" href="resources/favicon.jpeg">
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Matthew Toal</title>
+		<link rel="stylesheet" href="./resources/styles/globals.css" />
+		<link rel="stylesheet" href="./resources/styles/projects.css" />
+		<link rel="icon" type="image/logo" href="resources/favicon.jpeg" />
+	</head>
 
-<body>
-	<header>
-		<nav>
-			<div class="logo">
-				<a href="index.html">Portfolio</a>
+	<body>
+		<header>
+			<nav>
+				<div class="logo">
+					<a href="index.html">Portfolio</a>
+				</div>
+				<div class="navigation">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="skills.html">Skills</a>
+					<a href="projects.html">Projects</a>
+					<a href="contact.html" class="button">Contact</a>
+				</div>
+			</nav>
+			<hr />
+		</header>
+
+		<div class="projects">
+			<div class="title">
+				<h1>Projects</h1>
 			</div>
-			<div class="navigation">
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="skills.html">Skills</a>
-				<a href="projects.html">Projects</a>
-				<a href="contact.html" class="button">Contact</a>
+
+			<div class="project1">
+				<h1>- Encryption/Decryption - Rust</h1>
+				<div class="proj1des">
+					<p>
+						Takes a user's input and encrypts the message and allows
+						the user to view the encryption via terminal. Once it's
+						encrypted, the program allows the user to decrypt the
+						encrypted message to view the original message.
+					</p>
+					<a href="https://github.com/Mtoal087/Encryption-Decryption"
+						>GitHub Link</a
+					>
+				</div>
+				<div class="images1">
+					<img
+						src="resources/rustPhotos/decrypt.png"
+						alt="Decryption"
+					/>
+					<img
+						src="resources/rustPhotos/encrypt.png"
+						alt="Encryption"
+					/>
+				</div>
 			</div>
-		</nav>
-		<hr>
-	</header>
 
-	<div class="projects">
-		<div class="title">
-			<h1>Projects</h1>
-		</div>
+			<div class="project2">
+				<h1>- Formula 1 iOS App - Swift/SwiftUI</h1>
+				<div class="proj2des">
+					<p>
+						A mobile application that gives you information about
+						Formula 1 Racing. Read about the drivers, teams, and
+						circuits. Still in development.
+					</p>
+					<a href="https://github.com/Mtoal087/Formula1"
+						>GitHub Link</a
+					>
+				</div>
+				<div class="images2">
+					<img src="resources/f1Photos/carPage.png" alt="Car Page" />
+					<img
+						src="resources/f1Photos/driverPage.png"
+						alt="Driver Page"
+					/>
+					<img
+						src="resources/f1Photos/racePage.png"
+						alt="Race Page"
+					/>
+				</div>
+			</div>
 
-		<div class="project1">
-			<h1>- Encryption/Decryption - Rust</h1>
-			<div class="proj1des">
+			<div class="project3">
+				<h1>- Weather App iOS App - Swift/SwiftUI</h1>
+				<div class="proj3des">
+					<p>
+						A mobile application that asks for your location and
+						finds it with your devices longitude and latitude and is
+						able to connect to a REST API and sends you the current
+						weather for your location.
+					</p>
+					<a href="https://github.com/Mtoal087/iOSWeatherApp"
+						>GitHub Link</a
+					>
+				</div>
+				<div class="images3">
+					<img
+						src="resources/weatherPhotos/weather1.png"
+						alt="Welcome"
+					/>
+					<img
+						src="resources/weatherPhotos/weather2.png"
+						alt="Weather"
+					/>
+				</div>
+			</div>
+			<div class="project4">
+			<h1>- Iotta - Python3/SQLite3</h1>
+			<div class="proj4des">
 				<p>
-					Takes a user's input and encrypts the message and allows the user to view the encryption via
-					terminal. Once it's encrypted, the program allows the user to decrypt the encrypted message
-					to view the original message. 
+					Currently only a command line application that allows you to
+					create creatures and battle other opponents
 				</p>
-				<a href="https://github.com/Mtoal087/Encryption-Decryption">GitHub Link</a>
+				<a href="https://github.com/Mtoal087/Iotta">GitHub Link</a>
 			</div>
-			<div class="images1">
-				<img src="resources/rustPhotos/decrypt.png" alt="Decryption">
-				<img src="resources/rustPhotos/encrypt.png" alt="Encryption">
-			</div>
-		</div>
-
-		<div class="project2">
-			<h1>- Formula 1 iOS App - Swift/SwiftUI</h1>
-			<div class="proj2des">
-				<p>
-					A mobile application that gives you information about Formula 1 Racing. Read about the 
-					drivers, teams, and circuits. Still in development. 
-					
-				</p>
-				<a href="https://github.com/Mtoal087/Formula1">GitHub Link</a>
-			</div>
-			<div class="images2">
-				<img src="resources/f1Photos/carPage.png" alt="Car Page">
-				<img src="resources/f1Photos/driverPage.png" alt="Driver Page">
-				<img src="resources/f1Photos/racePage.png" alt="Race Page">
+			<div class="images4">
+				<img
+					src="resources/iottaPhotos/Homescreen.png"
+					alt="Iotta Homescreen"
+				/>
+				<img class="battle" src="resources/iottaPhotos/Battle.png" alt="Battle" />
+				<img
+					src="resources/iottaPhotos/Leaderboard.png"
+					alt="Leaderboard"
+				/>
 			</div>
 		</div>
-
-		<div class="project3">
-			<h1>- Weather App iOS App - Swift/SwiftUI</h1>
-			<div class="proj3des">
-				<p>
-					A mobile application that asks for your location and finds it with your devices
-					longitude and latitude and is able to connect to a REST API and sends you the 
-					current weather for your location.
-				</p>
-				<a href="https://github.com/Mtoal087/iOSWeatherApp">GitHub Link</a>
-			</div>
-			<div class="images3">
-				<img src="resources/weatherPhotos/weather1.png" alt="Welcome">
-				<img src="resources/weatherPhotos/weather2.png" alt="Weather">
-			</div>
 		</div>
-	</div>
 
-	<footer>
-		<div class="socials">
-			<a href="https://www.linkedin.com/in/mtoal087/"><img src="resources/linkedin.png" alt="LinkedIn"></a>
-			<a href="https://www.facebook.com/matt.toal.549"><img src="resources/facebook.png" alt="Facebook"></a>
-			<a href="https://twitter.com/mattxtoal"><img src="resources/twitter.png" alt="Twitter"></a>
-			<a href="https://www.instagram.com/mattxtoal/"><img src="resources/instagram.png" alt="Instagram"></a>
-		</div>
-	</footer>
-</body>
+		
 
+		<footer>
+			<div class="socials">
+				<a href="https://www.linkedin.com/in/mtoal087/"
+					><img src="resources/linkedin.png" alt="LinkedIn"
+				/></a>
+				<a href="https://www.facebook.com/matt.toal.549"
+					><img src="resources/facebook.png" alt="Facebook"
+				/></a>
+				<a href="https://twitter.com/mattxtoal"
+					><img src="resources/twitter.png" alt="Twitter"
+				/></a>
+				<a href="https://www.instagram.com/mattxtoal/"
+					><img src="resources/instagram.png" alt="Instagram"
+				/></a>
+			</div>
+		</footer>
+	</body>
 </html>
