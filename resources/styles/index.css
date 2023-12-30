@@ -81,9 +81,9 @@ nav .navigation .button:hover {
 }
 
 .left button {
-	background: linear-gradient(75deg, var(--navy), var(--blue), var(--navy));
-	animation: buttonGradient 1.75s linear infinite;
-	color: var(--white);
+	background: linear-gradient(70deg, var(--blue), var(--white), var(--blue));
+	animation: buttonGradient 2s linear infinite;
+	color: whitesmoke;
 	padding: .5em 1em;
 	cursor: pointer;
 	border-radius: 12px;
